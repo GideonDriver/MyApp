@@ -15,7 +15,7 @@ public class MyAppApplication {
 	
 	@GetMapping("/sayHello")
 	public String sayHello() {
-		return "Hello my friend";
+		return "Hello friend";
 	}
 
 }
